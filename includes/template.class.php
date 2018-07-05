@@ -91,7 +91,7 @@ class Template
                                             $this->template );
         }
 
-        $this->template = preg_replace( "/" .$this->leftDelimiterC ."(.*)" .$this->rightDelimiterC ."/isUe",
+        $this->template = preg_replace( "/" .$this->leftDelimiterC ."(.*)" .$this->rightDelimiterC ."/isU",
                                         "", $this->template );
     }
 
