@@ -4,6 +4,8 @@ Bitcoin Faucet integrated with banlist and VPN/Proxy Shield. Use the reCaptcha v
 
 # Mininum Requirements
 
+Now working on PHP >= 7.0 
+Tested on 
 - PHP >= 5.4 (tested on 5.6), please do not use PHP 7.0 or higher
 
 - MySQL
@@ -33,8 +35,4 @@ A demo is avaible: http://salmen.website/Faucet/
 
 # Fee
 
-A small fee of 1 Satoshi will be sent to the owner for each claim. Remvoing license can be done by paying a one-time fee.
-
-# Terms and Conditions
-
-You have the rights to modify the code, as long you do not remove the fees/license.
+A small fee of 1 Satoshi will be sent to the owner for each claim.
