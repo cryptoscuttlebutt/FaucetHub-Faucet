@@ -33,8 +33,8 @@ INSERT INTO `faucet_settings` (`id`, `name`, `value`) VALUES
 (5, 'timer', '60'),
 (6, 'min_reward', '1'),
 (7, 'max_reward', '100'),
-(8, 'reCaptcha_privKey', ''),
-(9, 'reCaptcha_pubKey', ''),
+(8, 'reCaptcha_privKey', 'get from https://www.google.com/recaptcha/admin'),
+(9, 'reCaptcha_pubKey', 'get from https://www.google.com/recaptcha/admin'),
 (10, 'faucethub_key', ''),
 (11, 'claim_enabled', 'yes'),
 (12, 'admin_username', 'admin'),
@@ -48,7 +48,7 @@ INSERT INTO `faucet_settings` (`id`, `name`, `value`) VALUES
 (20, 'bitcaptcha_private_key', ''),
 (21, 'bitcaptcha_id_www', ''),
 (22, 'bitcaptcha_private_key_www', ''),
-(23, 'captcha_select', '2');
+(23, 'captcha_select', '1');
 
 CREATE TABLE IF NOT EXISTS `faucet_transactions` (
   `id` int(32) unsigned NOT NULL AUTO_INCREMENT,
