@@ -1,12 +1,10 @@
-# FaucetHub-Faucet
+# FaucetHub-Faucet PHP 7
 Bitcoin Faucet integrated with banlist and VPN/Proxy Shield. Use the reCaptcha version 2 and BitCaptcha. Payments to the Account and withdraw over FaucetHub
 
 
 # Mininum Requirements
 
 Now working on PHP >= 7.0 
-Tested on 
-- PHP >= 5.4 (tested on 5.6), please do not use PHP 7.0 or higher
 
 - MySQL
 
